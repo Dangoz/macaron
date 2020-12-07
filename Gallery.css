@@ -42,20 +42,32 @@ img {
 /* content */
 .content-wrapper {
   display: grid;
-  height: 250vh;
+  height: 260vh;
   width: 100vw;
-  grid-template-rows: 1fr 1.5fr;
+  grid-template-rows: 1fr 0.1fr 1.5fr;
+}
+.galleryTitle {
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+  color: #303030;
+  background-image: url('gallery/bg3.png');
 }
 .grid {
   height: 100%;
   width: 100%;
-  grid-row: 2 / 3;
+  grid-row: 3 / 4;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-image: url('gallery/bg2.jpg');
+  background-image: url('gallery/bg3.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
+
 .column1 {
   grid-column: 1 / 2;
   display: flex;
