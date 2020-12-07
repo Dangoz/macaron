@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+
 .topnav {
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
@@ -36,6 +37,40 @@
     color: white;
   }
 
+/* slide */
+.slide {
+  height: 63vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+.slideBox {
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slideImg {
+  display: block;
+  height: 500px;
+  width: 800px;
+  border-radius: 15px;
+  
+}
+.prev {
+  grid-column: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.next {
+  grid-column: 3 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 
 /* content */
 .content-wrapper {
@@ -144,49 +179,49 @@
 .item10 {
   grid-row: 5 / 6;
   grid-column: 2 / 3;
-  background: linear-gradient(90deg, rgba(238,156,167,1) 0%, rgba(255,221,225,1) 100%);
+  background: linear-gradient(to left, #40e0d0, #ff8c00, #ff0080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .item11 {
   grid-row: 5 / 6;
   grid-column: 3 / 4;
-  background: linear-gradient(90deg, rgba(238,156,167,1) 0%, rgba(255,221,225,1) 100%);
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .item12 {
   grid-row: 5 / 6;
   grid-column: 4 / 5;
-  background: linear-gradient(90deg, rgba(238,156,167,1) 0%, rgba(255,221,225,1) 100%);
+  background: linear-gradient(to left, #f0f2f0, #000c40);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .item13 {
   grid-row: 6 / 7;
   grid-column: 1 / 2;
-  background: linear-gradient(90deg, rgba(238,156,167,1) 0%, rgba(255,221,225,1) 100%);
+  background: linear-gradient(to right, #00c3ff, #ffff1c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .item14 {
   grid-row: 6 / 7;
   grid-column: 2 / 3;
-  background: linear-gradient(90deg, rgba(238,156,167,1) 0%, rgba(255,221,225,1) 100%);
+  background: linear-gradient(to right, #5d4157, #a8caba);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .item15 {
   grid-row: 6 / 7;
   grid-column: 3 / 4;
-  background: linear-gradient(90deg, rgba(238,156,167,1) 0%, rgba(255,221,225,1) 100%);
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .item16 {
   grid-row: 6 / 7;
   grid-column: 4 / 5;
-  background: linear-gradient(90deg, rgba(238,156,167,1) 0%, rgba(255,221,225,1) 100%);
+  background: linear-gradient(to right, #4568dc, #b06ab3);  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
