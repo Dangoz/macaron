@@ -2,7 +2,9 @@ const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 const img = document.querySelector('.slideImg');
 
-let pool = ["gallery/bear.jpg", "gallery/set.jpg", "gallery/chocolate.jpg"];
+// pool includes pictures of slide show
+let pool = ["gallery/set.jpg", "gallery/slide1.jpg", "gallery/slide2.jpg", "gallery/slide3.jpg", "gallery/slide4.jpg", "gallery/slide5.jpg"];
+
 let index = 0;
 
 prev.addEventListener('click', prevImage);
