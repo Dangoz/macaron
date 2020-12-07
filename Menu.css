@@ -55,12 +55,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: 20px;
 }
 .content-wrapper .title1 {
   grid-row: 1 / 2;
   grid-column: 1 / 5;
-  font-size: 30px;
+  font-size: 60px;
   font-family: 'Dancing Script', cursive;
 }
 .item1 {
@@ -109,7 +109,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 60px;
 }
 .item9 {
   grid-row: 5 / 6;
